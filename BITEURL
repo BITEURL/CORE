@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Video Downloader</title>
+  </head>
+  <body style="background-color: #ADD8E6">
+    <h1>Video Downloader</h1>
+    <p>Enter the URL of the video you want to download:</p>
+    <form action="/download" method="post">
+      <input type="text" name="video_url" placeholder="Video URL">
+      <button type="submit">Download</button>
+    </form>
+  </body>
+</html>
